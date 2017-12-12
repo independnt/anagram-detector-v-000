@@ -11,7 +11,7 @@ class Anagram
     array.map do |w|
       if word.split("").sort == w.split("").sort
         w
-      else ""
+      else pass
       end
     end
   end
